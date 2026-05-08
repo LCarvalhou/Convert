@@ -43,8 +43,17 @@ function convertCurrency(amount, price, symbol) {
     description.innerText = `${symbol} 1 = ${formatCurrencyBRL(price)}`;
     
     // Calcula o valor total.
-    let total = amount * price;
-    
+    let total = (amount * price);
+   
+    //verifica se o resultado nao e um numero.
+    if (isNaN(total)) {
+        return alert("Por favor, insira um valor numérico válido.");
+    }
+
+
+    //Formatar o valor total para real brasileiro,
+    total= formatCurrencyBRL(total).replace("R$","");
+
     //Exibir o resultado total.
     result.textContent = `${total} Reais`;
 
