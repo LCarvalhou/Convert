@@ -47,24 +47,6 @@ Convert/
 
 ---
 
-## ▶️ Como executar o projeto
-
-1. Clone o repositório:
-
-```bash
-git clone https://github.com/LCarvalhou/Convert.git
-```
-
-2. Acesse a pasta do projeto:
-
-```bash
-cd Convert
-```
-
-3. Abra o arquivo `index.html` no navegador.
-
----
-
 ## 💡 Aprendizados
 
 Neste projeto foram praticados conceitos como:
